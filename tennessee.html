@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tennessee State Page</title>
+        <link rel="stylesheet" href="global.css" />
+        <link rel="stylesheet" href="state.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>tennessee</h1>
+            <h3>"America at Its Best"</h3>
+        </header>
+        <section>
+            <blockquote>
+                <span class="mark">"</span>There's an old saying in <b>Tennessee</b> — <br>
+                I know it's in Texas, <i>probably</i> in <b>Tennessee</b> — that says,<br>
+                <span id="typing"></span><span class="mark">"</span><br>
+                <cite> - <b>G.W. Bush</b>, 43<sup>rd</sup> president of the United States</cite> 
+            </blockquote>
+        </section>
+        <nav>
+            <h2>Explore the Cities of Tennessee:</h2>
+            <ul>
+                <li><a href="">Nashville</a></li>
+                <li><a href="">Memphis</a></li>
+                <li><a href="">Gatlinburg</a></li>
+                <li><a href="">Knoxville</a></li>
+            </ul>
+        </nav>
+    </body>
+
+<script>
+    let words = "Fool me once, shame on — shame on you.!Fool me — you can't get fooled again.";
+
+    function typing(words) {
+        let i = 0;
+        const typeOn = document.getElementById("typing");
+
+        setInterval(() => {
+            if (words.charAt(i) == '!') // `!` acts as a delimiter
+                typeOn.innerHTML += "<br>"
+            else
+                typeOn.innerHTML += words.charAt(i);
+            i++;
+        }, 80);
+    }
+
+    typing(words);
+</script>
+
+</html>

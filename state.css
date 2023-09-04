@@ -1,0 +1,88 @@
+body {
+    background-image: url(./assets/ten-trees.webp);
+    background-size: cover;
+}
+
+header {
+    margin: 1rem 0 0.8rem;
+}
+
+h1 {
+    font-size: 4.2rem;
+    font-variant: small-caps;
+    font-weight: 200;
+    letter-spacing: 1rem;
+}
+
+h3 {
+    font-style: italic;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+section {
+    margin: 5rem 0;
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 1rem;
+}
+
+section blockquote {
+    padding: 0 2rem;
+    min-height: 22rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    line-height: 4rem;
+}
+
+cite {
+    padding-left: 8rem;
+}
+
+.mark {
+  font-size: 3rem;
+  font-style: italic;
+  letter-spacing: 2rem; 
+}
+
+/*
+    Media Queries
+*/
+
+@media (min-width: 2000px) {
+
+    header {
+        margin: 2.4rem 0 1.4rem;
+    }
+    
+    h1 {
+        font-size: 6rem;
+        letter-spacing: 1rem;
+    }
+    
+    h3 {
+        font-size: 1.42rem;
+        padding-right: 1rem;
+    }
+    
+    section {
+        margin: 5rem 0;
+
+    }
+    
+    section blockquote {
+        padding: 4rem 4rem 0;
+        min-height: 28rem;
+        font-size: 2.2rem;
+        letter-spacing: 0.2rem;
+        line-height: 4rem;
+    }
+    
+    cite {
+        padding-left: 8rem;
+    }
+    
+    .mark {
+      font-size: 4.2rem;
+      letter-spacing: 2.2rem; 
+    }
+}
