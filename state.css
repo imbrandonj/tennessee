@@ -1,7 +1,8 @@
-body {
-    background-image: url(./assets/ten-trees.webp);
-    background-size: cover;
-}
+/*
+    Styles for tenneesee.html state page
+
+    author: Brandon Jenkins
+*/
 
 header {
     margin: 1rem 0 0.8rem;
@@ -23,7 +24,7 @@ h3 {
 section {
     margin: 4.2rem 0;
     padding: 0 2rem;
-    background-color: rgba(240, 248, 255, 0.5);
+    background-color: var(--overlay-color);
     border-radius: 1rem;
 }
 
