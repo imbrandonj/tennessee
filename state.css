@@ -21,14 +21,14 @@ h3 {
 }
 
 section {
-    margin: 5rem 0;
+    margin: 4.2rem 0;
+    padding: 0 2rem;
     background-color: rgba(240, 248, 255, 0.5);
     border-radius: 1rem;
 }
 
 section blockquote {
-    padding: 0 2rem;
-    min-height: 22rem;
+    min-height: 21.6rem;
     font-size: 2rem;
     letter-spacing: 0.2rem;
     line-height: 4rem;
@@ -36,6 +36,29 @@ section blockquote {
 
 cite {
     padding-left: 8rem;
+}
+
+section p {
+    text-align: right;
+    padding-right: 3rem;
+    font-size: 1.42rem;
+    letter-spacing: 0.15rem;
+}
+
+section p a {
+    padding: 0 0.22rem 0.1rem;
+    background-color: cadetblue;
+    color: var(--black-font);
+    border-radius: 0.2rem;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 600;
+}
+
+section p a:hover {
+    background-color: black;
+    color: var(--white-font);
+
 }
 
 .mark {
@@ -55,7 +78,7 @@ cite {
     }
     
     h1 {
-        font-size: 6rem;
+        font-size: 6.2rem;
         letter-spacing: 1rem;
     }
     
@@ -66,12 +89,11 @@ cite {
     
     section {
         margin: 5rem 0;
-
+        padding: 2rem;
     }
     
     section blockquote {
-        padding: 4rem 4rem 0;
-        min-height: 28rem;
+        min-height: 24rem;
         font-size: 2.2rem;
         letter-spacing: 0.2rem;
         line-height: 4rem;
