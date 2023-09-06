@@ -5,13 +5,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Form</title>
         <link rel="stylesheet" href="global.css" />
-        <link rel="stylesheet" href="city.css" />
+        <link rel="stylesheet" href="form.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
     </head>
     <header>
         <h1>fool-me form</h1>
-        <img src="./assets/president.png" height="100">
+        <img src="./assets/president.png" height="90">
     </header>
+
+    <section>
+        <table>
+            <caption>Fool-Me Table</caption>
+            <tr>
+                <colgroup style="background-color: aliceblue;">
+                <th>Fooled:</th>
+                </colgroup>
+                <th>Zero</th>
+                <th>Once</th>
+                <th>One or More</th>
+            </tr>
+            <tr>
+                <td><b>Me</b></td>
+                <td>Good</td>
+                <td>Shame on You</td>
+                <td>You can't get fooled anymore</td>
+            </tr>
+            <tr>
+                <td><b>You</b></td>
+                <td>Shame on Me</td>
+                <td>Shame on You</td>
+                <td>Good</td>
+            </tr>
+        </table>
+        <form>
+            <h2>Tell me about it.</h2>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName">
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName">
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+
+            <label for="confirmE">Confirm Email:</label>
+            <input type="text" name="confirmE" id="confirmE">
+
+            <label for="textBlock">What do you have to say?</label>
+            <textarea name="textBlock" id="textBlock"></textarea>
+        </form>
+    </section>
+    <footer>Click <a href="tennessee.html">here</a> to return to <b>Tennessee</b> state page.</footer>
 </html>
