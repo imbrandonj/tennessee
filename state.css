@@ -15,16 +15,17 @@ h1 {
     letter-spacing: 1rem;
 }
 
-h3 {
+h4 {
     font-style: italic;
     text-align: right;
     padding-right: 1rem;
+    font-size: 1.2rem;
 }
 
 section {
     margin: 4.2rem 0;
     padding: 0 2rem;
-    background-color: var(--overlay-color);
+    background-color: var(--section-overlay);
     border-radius: 1rem;
 }
 
@@ -83,7 +84,7 @@ section p a:hover {
         letter-spacing: 1rem;
     }
     
-    h3 {
+    h4 {
         font-size: 1.42rem;
         padding-right: 1rem;
     }

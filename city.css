@@ -15,20 +15,52 @@ h1 {
     letter-spacing: 1rem;
 }
 
+/*
+    Styles located inside of each <section>
+*/
 section {
     display: flex;
-    justify-content: start;
-    margin: 4.2rem 0;
-    padding: 2rem;
-    width: 80rem;
-    background-color: var(--overlay-color);
-    border-radius: 1rem;
-}
-
-section > img {
+    justify-content: space-between;
+    margin: 4rem 0;
+    padding: 2.4rem;
+    width: 88rem;
+    background-color: var(--section-overlay);
     border-radius: 1rem;
 }
 
 section > aside {
-    margin: 2rem;
+    margin: 0 2rem;
+}
+
+h2 {
+    letter-spacing: 0.15rem;
+}
+
+h2 > span {
+    font-style: italic;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+section ul {
+    margin: 2rem 0;
+    letter-spacing: 0.1rem;
+}
+
+section li {
+    margin: 0.5rem 0;
+}
+
+section cite {
+    padding-left: 20rem;
+}
+
+section p {
+    letter-spacing: 0.05rem;
+    font-size: 1.05rem;
+}
+
+section > img {
+    border-radius: 1rem;
+    align-self: center;
 }

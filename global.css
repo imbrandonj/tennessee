@@ -7,7 +7,8 @@
     --font: Oxygen, sans-serif;
     --black-font: black;
     --white-font: whitesmoke;
-    --overlay-color: rgba(240, 248, 255, 0.5);
+    --section-overlay: rgba(240, 248, 255, 0.7);
+    --nav-overlay: rgba(240, 248, 255, 0.5);
 }
 
 html, body {
@@ -21,7 +22,7 @@ html, body {
     box-sizing: inherit;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
 }
@@ -41,15 +42,16 @@ body {
     Nav Styles
 */
 nav {
-    background-color: var(--overlay-color);
+    background-color: var(--nav-overlay);
     border-radius: 1rem;
     padding: 0 0 1rem;
     letter-spacing: 0.1rem;
 }
 
-nav > h2 {
+nav > h3 {
     margin: 2rem;
     text-align: center;
+    font-size: 1.42rem;
 }
 
 nav li {
@@ -79,7 +81,7 @@ nav a:hover {
         letter-spacing: 0.15rem;
     }
     
-    nav > h2 {
+    nav > h3 {
         margin: 3rem;
         font-size: 1.8rem;
     }
