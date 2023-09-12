@@ -21,9 +21,9 @@ h1 {
 section {
     display: flex;
     justify-content: space-between;
-    margin: 4rem 0;
+    margin: 3rem 0 4rem;
     padding: 2.4rem;
-    width: 88rem;
+    width: 96rem;
     background-color: var(--section-overlay);
     border-radius: 1rem;
 }
@@ -61,6 +61,6 @@ section p {
 }
 
 section > img {
-    border-radius: 1rem;
+    border-radius: 1rem 9rem;
     align-self: center;
 }
