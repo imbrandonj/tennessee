@@ -2,6 +2,7 @@
 const emailBox = document.getElementById("email");
 const confirmEBox = document.getElementById("confirmE");
 const eMsg = document.getElementById("eMsg");
+
 let email, confirmE;  // global vars to be used in function scope
 
 // Obtain `email` value
@@ -9,7 +10,8 @@ emailBox.addEventListener("change", function() {
     email = emailBox.value;
 })
 
-/*  Confirm that `email` matches `confirmE` 
+/*  
+    Confirm that emails match ~ `email` matches `confirmE` 
     `confirmE` label will display eMsg on change (default = display: none; see `form.css`) 
 */
 confirmEBox.addEventListener("input", function() {

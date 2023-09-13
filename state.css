@@ -47,22 +47,6 @@ section p {
     letter-spacing: 0.15rem;
 }
 
-section p a {
-    padding: 0 0.22rem 0.1rem;
-    background-color: cadetblue;
-    color: var(--black-font);
-    border-radius: 0.2rem;
-    text-decoration: none;
-    font-variant: small-caps;
-    font-weight: 600;
-}
-
-section p a:hover {
-    background-color: black;
-    color: var(--white-font);
-
-}
-
 .mark {
   font-size: 3rem;
   font-style: italic;

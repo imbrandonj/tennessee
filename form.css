@@ -26,7 +26,7 @@ section {
     display: flex;
     margin: 4rem 0 2rem;
     padding: 2rem;
-    background-color: var(--overlay-color);
+    background-color: var(--section-overlay);
     border-radius: 1rem;
 }
 
@@ -71,10 +71,19 @@ input, textarea {
     letter-spacing: 0.05rem;
 }
 
+form > p {
+    letter-spacing: 0.05rem;
+}
+
+form >p > a {
+    font-size: 1.2rem;
+}
+
+/* width of textarea determines width of the flex column & section width to fit eMsg */
 textarea {
     resize: none;
     height: 8rem;
-    width: 20rem;
+    width: 22.2rem;
 }
 
 /* By default, display is none until user types in box, then display is error message until form.js confirms */
@@ -90,24 +99,8 @@ textarea {
 
 footer {
     padding: 1rem;
-    background-color: var(--overlay-color);
+    background-color: var(--nav-overlay);
     border-radius: 1rem;
     font-size: 1.42rem;
     letter-spacing: 0.15rem;
-}
-
-footer a {
-    padding: 0 0.22rem 0.1rem;
-    background-color: cadetblue;
-    color: var(--black-font);
-    border-radius: 0.2rem;
-    text-decoration: none;
-    font-variant: small-caps;
-    font-weight: 600;
-}
-
-footer a:hover {
-    background-color: black;
-    color: var(--white-font);
-
 }

@@ -21,7 +21,7 @@ h1 {
 section {
     display: flex;
     justify-content: space-between;
-    margin: 3rem 0 4rem;
+    margin: 3rem 0;
     padding: 2.4rem;
     width: 96rem;
     background-color: var(--section-overlay);
