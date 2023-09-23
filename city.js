@@ -33,6 +33,7 @@ switch ( pageTitle ) {
         words1 = 'It served as the capital of the Southwest Territory in the early 1800\'s.';
         words2 = 'Knoxville is home to the University of Tennessee.';
         words3 = 'The city has a thriving art and music scene, hosting film, art, and music festivals regularly.';
+        break;
 }
 
 function typing(words, item) {
