@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+        <script src="city.js" defer></script>
     </head>
     <header>
         <h1>knoxville, tn</h1>
@@ -26,13 +27,15 @@
                 <cite>Source: <a href="https://www.city-data.com/city/Knoxville-Tennessee.html" target="_blank">city-data.com</a></cite>
             </ul>
         
-            <p>
-                <b>Knoxville</b> was originally established as the territorial capital of the Southwest Territory of the United States in 1791.<br><br>
-                This city is called <i>The Marble City</i> due to the abundance of high-quality marble found in the region.
-                In fact, <b>Knoxville</b> is surrounded by beauty, with the Great Smoky Mountains residing just south.<br><br>
-                The city's role in the development of country and bluegrass music is historical; 
-                the city continues to host various musical festivals and events throughout the year.
-            </p>
+            <div id="cityList">
+                <a class="blockLink" href="https://openai.com/blog/chatgpt" target="_blank">ChatGPT</a>, give me three fun facts about <b>Knoxville</b>...
+                <ol>
+                    <li id="item1"></li>
+                    <li id="item2"></li>
+                    <li id="item3"></li>
+                </ol>
+            </div>
+
         </aside>
         <img src="./assets/knoxville.webp" height="420" alt="Sequoyah Park, Knoxville">
     </section>

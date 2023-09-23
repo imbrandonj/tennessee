@@ -24,6 +24,7 @@ section {
     margin: 3rem 0;
     padding: 2.4rem;
     width: 96rem;
+    height: 32rem;
     background-color: var(--section-overlay);
     border-radius: 1rem;
 }
@@ -63,4 +64,13 @@ section p {
 section > img {
     border-radius: 1rem 9rem;
     align-self: center;
+}
+
+nav p {
+    font-size: 1.1rem;
+}
+
+#cityList {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
 }

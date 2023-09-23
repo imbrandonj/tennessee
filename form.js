@@ -1,3 +1,11 @@
+/*
+    form.js
+    author: Brandon Jenkins
+
+    The purpose of this script is to display a confirmation message
+    To ensure user email and confirmation email are the same.
+*/
+
 // Obtain document input IDs
 const emailBox = document.getElementById("email");
 const confirmEBox = document.getElementById("confirmE");
@@ -11,7 +19,7 @@ emailBox.addEventListener("change", function() {
 })
 
 /*  
-    Confirm that emails match ~ `email` matches `confirmE` 
+    Confirm that emails match: `email` matches `confirmE` 
     `confirmE` label will display eMsg on change (default = display: none; see `form.css`) 
 */
 confirmEBox.addEventListener("input", function() {

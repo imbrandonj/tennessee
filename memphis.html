@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+        <script src="city.js" defer></script>
     </head>
     <header>
         <h1>memphis, tn</h1>
@@ -25,13 +26,15 @@
                 <li><b>Median Household Income: </b> $44,317</li>
                 <cite>Source: <a href="https://www.city-data.com/city/Memphis-Tennessee.html" target="_blank">city-data.com</a></cite>
             </ul>
-        
-            <p>
-                <b>Memphis</b>, like other Tennessee cities, has rich musical heritage.
-                The city is known as the <i>"Home of the Blues"</i> because of its development and popularization of blues music.<br><br>
-                Further, <b>Memphis</b> was home of the infamous Elvis Presley and Sun Studio - the recording studio for Johnny Cash, BB King, and others. Thus, many consider <b>Memphis</b> as the birthplace of rock 'n' roll.<br><br>
-                <b>Memphis</b> boasts a strong BBQ culture and a history ripe with civil rights movements; where music, history, and BBQ come together.
-            </p>
+
+            <div id="cityList">
+                <a class="blockLink" href="https://openai.com/blog/chatgpt" target="_blank">ChatGPT</a>, give me three fun facts about <b>Memphis</b>...
+                <ol>
+                    <li id="item1"></li>
+                    <li id="item2"></li>
+                    <li id="item3"></li>
+                </ol>
+            </div>
         </aside>
         <img src="./assets/memphis.webp" height="420" alt="Memphis sign in front of downtown Memphis">
     </section>
