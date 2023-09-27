@@ -1,7 +1,7 @@
 # tennessee
 A website about Tennessee. Made for my frontend web dev class.  
 
-tennessee-rust.vercel.app  
+https://tennessee-rust.vercel.app  
 
 Project Requirements
 
