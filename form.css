@@ -6,7 +6,6 @@
 
 header {
     margin-top: 1rem;
-    display: flex;
 }
 
 h1 {
@@ -14,6 +13,11 @@ h1 {
     font-variant: small-caps;
     font-weight: 200;
     letter-spacing: 1rem;
+}
+
+/* assignment requirement 'a float property to position at least one HTML element to the side of another' */
+header > h1 {
+    float: left;
 }
 
 h2 {
@@ -86,7 +90,7 @@ textarea {
     width: 22.2rem;
 }
 
-/* By default, display is none until user types in box, then display is error message until form.js confirms */
+/* By default, display is none until user types in box, then display is eMsg from `form.js` */
 #eMsg {
     display: none;
     padding-left: 0.4rem;
@@ -97,7 +101,10 @@ textarea {
     letter-spacing: 0.1rem;
 }
 
+/* assignment requirement 'absolute positioning in at least one area' */
 footer {
+    position: absolute;
+    bottom: 2rem;
     padding: 1rem;
     background-color: var(--nav-overlay);
     border-radius: 1rem;

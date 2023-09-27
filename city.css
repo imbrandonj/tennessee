@@ -1,5 +1,5 @@
 /*
-    Styles for city pages
+    Styles for all city pages
 
     author: Brandon Jenkins
 */
@@ -52,8 +52,10 @@ section li {
     margin: 0.5rem 0;
 }
 
+/* assignment requirement 'relative positioning in at least one area' */
 section cite {
-    padding-left: 20rem;
+    position: relative;
+    left: 18rem;
 }
 
 section p {
