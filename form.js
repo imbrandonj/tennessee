@@ -2,8 +2,9 @@
     form.js
     author: Brandon Jenkins
 
-    The purpose of this script is to display a confirmation message
-    To ensure user email and confirmation email are the same.
+    The purpose of this script is to verify the user's email,
+    And to display a message whether or not
+    the user email and confirmation email are the same.
 */
 
 // Obtain document input IDs

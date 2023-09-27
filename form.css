@@ -24,7 +24,7 @@ h2 {
 
 section {
     display: flex;
-    margin: 4rem 0 2rem;
+    margin: 3rem 0 2rem;
     padding: 2rem;
     background-color: var(--section-overlay);
     border-radius: 1rem;
