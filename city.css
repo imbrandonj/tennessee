@@ -72,7 +72,7 @@ section > img {
     Media Queries
 */
 
-@media (min-width: 2000px) {
+@media (min-width: 2200px) {
     header {
         margin: 2.6rem 0 1.8rem;
     }

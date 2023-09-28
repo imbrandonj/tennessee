@@ -28,7 +28,7 @@ h2 {
 
 section {
     display: flex;
-    margin: 3rem 0 2rem;
+    margin: 2rem 0;
     padding: 2rem;
     background-color: var(--section-overlay);
     border-radius: 1rem;
@@ -101,10 +101,7 @@ textarea {
     letter-spacing: 0.1rem;
 }
 
-/* assignment requirement 'absolute positioning in at least one area' */
 footer {
-    position: absolute;
-    bottom: 2rem;
     padding: 1rem;
     background-color: var(--nav-overlay);
     border-radius: 1rem;
@@ -116,9 +113,9 @@ footer {
     Media Queries
 */
 
-@media (min-width: 2000px) {
+@media (min-width: 2200px) {
     header {
-        margin: 2.6rem 0 1.4rem;
+        margin: 2.6rem 0 1.2rem;
     }
     
     h1 {
@@ -131,6 +128,7 @@ footer {
     }
     
     section {
+        margin: 3rem 0;
         padding: 3rem 5rem;
     }
     

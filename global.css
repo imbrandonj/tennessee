@@ -101,7 +101,7 @@ nav > p > a {
     Media Queries
 */
 
-@media (min-width: 2000px) {
+@media (min-width: 2200px) {
     nav {
         padding: 0 1rem 2rem;
         letter-spacing: 0.15rem;
