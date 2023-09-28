@@ -23,8 +23,8 @@ h4 {
 }
 
 section {
-    margin: 4.2rem 0;
-    padding: 0 2rem;
+    margin: 3.8rem 0 4.2rem;
+    padding: 0 2rem 0.6rem;
     background-color: var(--section-overlay);
     border-radius: 1rem;
 }
@@ -74,8 +74,8 @@ section p {
     }
     
     section {
-        margin: 5rem 0;
-        padding: 2rem;
+        margin: 5rem 0 6rem;
+        padding: 2rem 3.2rem 1.6rem;
     }
     
     section blockquote {

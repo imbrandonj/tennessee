@@ -58,21 +58,64 @@ section cite {
     left: 18rem;
 }
 
-section p {
-    letter-spacing: 0.05rem;
-    font-size: 1.05rem;
-}
-
 section > img {
     border-radius: 1rem 9rem;
     align-self: center;
 }
 
-nav p {
-    font-size: 1.1rem;
-}
-
 #cityList {
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
+}
+
+/*
+    Media Queries
+*/
+
+@media (min-width: 2000px) {
+    header {
+        margin: 2.6rem 0 1.8rem;
+    }
+    
+    h1 {
+        font-size: 4.8rem;
+        letter-spacing: 1.2rem;
+    }
+    
+    section {
+        margin: 3rem 0;
+        padding: 4rem 6rem;
+        width: 110rem;
+        height: 42rem;
+    }
+    
+    h2 {
+        font-size: 1.82rem;
+        letter-spacing: 0.2rem;
+    }
+    
+    h2 > span {
+        font-size: 1.42rem;
+        letter-spacing: 0.12rem;
+    }
+    
+    section ul {
+        margin: 3rem 0;
+    }
+    
+    section li {
+        margin: 0.7rem 0;
+        font-size: 1.4rem;
+        letter-spacing: 0.14rem;
+    }
+    
+    section cite {
+        font-size: 1.18rem;
+        left: 22rem;
+    }
+    
+    #cityList {
+        font-size: 1.42rem;
+        letter-spacing: 0.14rem;
+    }
 }
